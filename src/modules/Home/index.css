@@ -1,6 +1,7 @@
-.home {
+.sports {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
+  align-items: center;
 
   margin-left: 10px;
   margin-right: 10px;
