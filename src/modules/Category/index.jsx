@@ -17,6 +17,7 @@ export function Category(props) {
 
   // Events
   const [events, setEvents] = useState([]);
+
   // List of unique tournaments
   const [tournaments, setTournaments] = useState([]);
 

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 import homeIcon from "../../images/icon-home.svg";
+import { getToday } from "../../utils/date-and-time";
 
 export function Navbar() {
   return (
@@ -9,13 +10,13 @@ export function Navbar() {
       <Link className="item" to="/">
         <img className="home-icon" src={homeIcon} alt="homeIcon" />
       </Link>
-      <Link className="item" to="/categories/football/2021-06-04/7200">
+      <Link className="item" to={`/categories/football/${getToday()}/7200`}>
         Football
       </Link>
-      <Link className="item" to="/categories/basketball/2021-06-04/7200">
+      <Link className="item" to={`/categories/basketball/${getToday()}/7200`}>
         Basketball
       </Link>
-      <Link className="item" to="/categories/rugby/2021-06-04/7200">
+      <Link className="item" to={`/categories/rugby/${getToday()}/7200`}>
         Rugby
       </Link>
     </div>
