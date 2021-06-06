@@ -10,14 +10,18 @@ export function h_min(timestamp) {
 export function date_h_min(timestamp) {
   var time = new Date(timestamp * 1000);
 
-  var date = time.toJSON().slice(0, 10);
-  date = date.split("-");
-  date.reverse();
+  var day = "0" + time.getDate();
+  var month = "0" + (time.getMonth() + 1);
+  var year = time.getFullYear();
 
   var hours = time.getHours();
   var minutes = "0" + time.getMinutes();
 
-  return date.join(".") + " " + hours + ":" + minutes.substr(-2);
+  return (
+    `${day.substr(-2)}.${month.substr(-2)}.${year}` +
+    " " +
+    `${hours}:${minutes.substr(-2)}`
+  );
 }
 
 export function minutes_diff(start, end) {
