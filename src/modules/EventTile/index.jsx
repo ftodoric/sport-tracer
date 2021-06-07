@@ -23,9 +23,9 @@ export function EventTile(props) {
             ) + "'"
           );
         } catch (err) {
-          if (event.status.description === "1st half") setEventStatus("1st");
+          if (event.status.description === "1st half") setEventStatus("1ST");
           else if (event.status.description === "2nd half")
-            setEventStatus("2nd");
+            setEventStatus("2ND");
           else setEventStatus("HT");
         }
         break;
