@@ -23,7 +23,10 @@ export function EventTile(props) {
             ) + "'"
           );
         } catch (err) {
-          setEventStatus("HT");
+          if (event.status.description === "1st half") setEventStatus("1st");
+          else if (event.status.description === "2nd half")
+            setEventStatus("2nd");
+          else setEventStatus("HT");
         }
         break;
       case "finished":

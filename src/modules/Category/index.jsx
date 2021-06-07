@@ -36,11 +36,11 @@ export function Category(props) {
   }, [categoryID, date]);
 
   // Print events
-  /* useEffect(() => {
+  useEffect(() => {
     if (events.length !== 0) {
       console.log(events);
     }
-  }, [events]); */
+  }, [events]);
 
   // Get all unique tournaments
   useEffect(() => {
