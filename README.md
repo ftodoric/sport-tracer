@@ -38,5 +38,6 @@ Deployed on **Vercel** domain.
 
 <br></br>
 
-**Creator**: ftodoric  
-**Start date**: 31/05/2021
+_ftodoric_ <!-- author -->  
+_31.05.2021_ <!-- project start date -->  
+_Zagreb, Croatia_ <!-- location -->
