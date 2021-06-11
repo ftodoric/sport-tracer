@@ -43,5 +43,5 @@ Deployed on **Vercel** domain.
 <br></br>
 
 _ftodoric_ <!-- author -->  
-_31.05.2021_ <!-- project start date -->  
+_31/05/2021_ <!-- project start date -->  
 _Zagreb, Croatia_ <!-- location -->
