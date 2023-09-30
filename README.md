@@ -2,9 +2,9 @@
 
 <img src="./src/images/tracer-cropped.png" width=400px alt="app logo"/>
 
-Live sport scores website. Developed as a project at SofaScore Academy 2021.
+Live score website app. Developed as a project at SofaScore Academy 21'.
 
-### Available sports:
+### Available sports
 
 - football :soccer:
 - basketball :basketball:
@@ -16,25 +16,31 @@ Live sport scores website. Developed as a project at SofaScore Academy 2021.
 
 ## App Development
 
-_CRA_ React app using _React Router_.
+_CRA_ app using _React Router_.
 
 ### Setup
 
 Clone the repository:
 
-`> git clone https://github.com/ftodoric/sport-tracer & cd sport-tracer`
+```
+> git clone https://github.com/ftodoric/sport-tracer & cd sport-tracer
+```
 
 Run app at _http://localhost:3000_ in development mode:
 
-`> npm start`
+```
+> npm start
+```
 
 or using Yarn package manager:
 
-`> yarn start`
+```
+> yarn start
+```
 
 ### Backend
 
-Data is provided from **SofaScore API**.
+Data is provided from **SofaScore API**. (:warning: No longer supported!)
 
 ### Deployment
 
