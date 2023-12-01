@@ -1,3 +1,5 @@
+⚠️ Project no longer active. ⚠️
+
 # SportTracer
 
 <img src="./src/images/tracer-cropped.png" width=400px alt="app logo"/>
